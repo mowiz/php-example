@@ -2,6 +2,9 @@
 language: php
 
 # list any PHP version you want to test against
+# If below 5.4; See https://docs.travis-ci.com/user/reference/trusty#PHP-images on how to test PHP 5.3 on Precise.
+dist: trusty
+
 php:
   # using major version aliases
 
