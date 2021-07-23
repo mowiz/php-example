@@ -10,6 +10,9 @@ Here is a sample status icon showing the state of the master branch.
 
 _Note: .org -> .com as of june 2021.  And what is my url supposed to be, a clear example is missing?_
 
+* For me the URL was in the format https://travis-ci.com/USERNAME/php-example.svg?branch=master
+* Giving me this icon: [![Build Status](https://travis-ci.com/mowiz/php-example.svg?branch=master)](https://travis-ci.com/mowiz/php-example.svg?branch=master)
+
 In order to run this project just fork it on github.com and then [enable](http://about.travis-ci.org/docs/user/getting-started/)
 your fork on your [travis-ci profile](http://travis-ci.org/profile). Every push will then trigger a new build on Travis CI.
 
